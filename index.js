@@ -31,10 +31,10 @@ function matchName(driverObjects,searchString){
 //Test
 const drivers = ['Mark', 'David', 'Alice', 'Bob'];
 const driverObjects = [
-    {name: 'Mark', hommetown: 'Chicago'},
-    {name : 'David', hometown: 'Los Angeles'},
-    {name : 'Alice', hometown: 'San Francisco'},
-    {name : 'Bob', hometown: 'New York'},
+    {name: 'Mark', hommetown: 'Ohio'},
+    {name : 'David', hometown: 'Texas'},
+    {name : 'Alice', hometown: 'Carlifonia'},
+    {name : 'Bob', hometown: 'Philladelphia'},
 ];
 
 console.log(findMatching(drivers, 'A'));
